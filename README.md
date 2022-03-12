@@ -1,4 +1,4 @@
-# Java SUDOKU-Solver Project
+# Java SUDOKU Solver Project
 
 ## -As an avid Sudoku puzzle player (borderline Sudoku addict), it was only fitting to create a solver for my favorite game.
 
