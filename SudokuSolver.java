@@ -54,14 +54,10 @@ public class SudokuSolver {
 				if(column % 3 == 0 && column != 0) {
 					System.out.print("|");
 				}
-				
 				System.out.print(board[row][column]);
-				
 			}
-			
 			System.out.println();
 		}
-		
 	}
 
 // We create a method which checks whether the blank space on our board
@@ -176,8 +172,7 @@ public class SudokuSolver {
 								
 // If recursive solveBoard call returns false, we want to clear out the 
 // last tried placement with an else statement
-								
-								
+									
 								else {
 									
 									board[row][column] = 0;
@@ -191,5 +186,4 @@ public class SudokuSolver {
 		}
 						return true;
 	}
-			
 }
