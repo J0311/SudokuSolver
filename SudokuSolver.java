@@ -82,9 +82,8 @@ public class SudokuSolver {
 		
 	}
 	
-	private static boolean isNumberInColumn (int[][] board, int number, int column)
-	{
-		
+	private static boolean isNumberInColumn (int[][] board, int number, int column){
+	
 
 // If we find the number that we're checking for in the COLUMN, we will receive 
 // a return of true. If number is NOT found, we can return false for data entry.
@@ -105,8 +104,8 @@ public class SudokuSolver {
 // Our method for taking in both x and y coordinates of our 3 X 3 grid square.
 // This method will take in BOTH row and column as a parameter
 	
-	private static boolean isNumberInBox (int[][] board, int number, int row, int column)
-	{
+	private static boolean isNumberInBox (int[][] board, int number, int row, int column){
+	
 		
 // We'll take the row passed in and take the modulus using 3 as the value. 
 // We apply this to both rows and columns. This gives us the accurate location
