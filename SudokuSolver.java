@@ -17,6 +17,7 @@ public class SudokuSolver {
 // integer of '0' as a placeholder value
 		
 		int [][] board = {
+			
 				{7,0,2,0,5,0,6,0,0},
 				{0,0,0,0,0,3,0,0,0},
 				{1,0,0,0,0,9,5,0,0},
